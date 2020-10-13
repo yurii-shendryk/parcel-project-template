@@ -1,0 +1,31 @@
+.hero {
+  background-color: #ffb8ca;
+  background-image: url('../images/ice-cream.svg'), url('../images/milk.svg'),
+    url('../images/Pink-Ellipse.svg'), url('../images/so-tasty.svg'),
+    url('../images/White-Ellipse.svg');
+  &__title {
+    font-size: 26px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    &-text {
+      text-transform: uppercase;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 23px 21px;
+
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.286;
+    color: #fff;
+
+    background-color: #d41443;
+    border-radius: 30px;
+    &--pink {
+      background-color: #fff;
+      color: #d41443;
+    }
+  }
+}
